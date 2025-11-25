@@ -1,14 +1,20 @@
 # Capstone-Repose
 
-# Clone the repo
+### Clone the repo
+```
 git clone https://github.com/timmao955/Capstone.git
+```
 
-# Setup environment
+### Setup environment
+```
 conda env create -f environment.yml
 conda activate Capstone-Repose
+```
 
-## 注意事项
-每次提交代码，使用以下命令
+### Notice
+Each time when push the code, use the following commands
+```
 git add .
-git commit -m "修改的内容"
+git commit -m "what you change"
 git push origin main
+```
