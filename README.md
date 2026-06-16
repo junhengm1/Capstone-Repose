@@ -23,7 +23,7 @@ Capstone-Repose/
 
 ### Clone the repo
 ```
-git clone https://github.com/timmao955/Capstone-Repose.git
+git clone https://github.com/junhengm1/Capstone-Repose.git
 cd Capstone-Repose
 ```
 
