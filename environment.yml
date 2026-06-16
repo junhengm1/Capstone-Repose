@@ -4,12 +4,30 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.8
+  - python=3.12
   - pip
-  - numpy
-  - pandas
+  - contextily
+  - flask
+  - geopandas
+  - huggingface_hub
+  - ipykernel
+  - jupyterlab
+  - lightgbm
   - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pyarrow
+  - pydantic
+  - pyyaml
   - scikit-learn
+  - seaborn
+  - shapely
+  - tqdm
   - pip:
-      - geopandas
-      - lightgbm
+      - modelscope
+      - peft
+      - rouge
+      - sentence-transformers
+      - transformers
+      - vllm

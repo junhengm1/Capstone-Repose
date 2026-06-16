@@ -1,0 +1,19 @@
+paths:
+  database: data/sft_sql.sqlite
+  base_model: Qwen3-4B
+  lora_checkpoint: checkpoints/train_2026-05-23-20-15-30
+
+generation:
+  max_new_tokens: 512
+  temperature: 0.2
+  top_p: 0.9
+  repetition_penalty: 1.05
+
+checkpoint:
+  source_url: https://huggingface.co/datasets/capstone-group/Capstone-dataset/tree/main/train_2026-05-23-20-15-30
+  download_command: huggingface-cli download capstone-group/Capstone-dataset --repo-type dataset --include "train_2026-05-23-20-15-30/*" --local-dir checkpoints
+
+evaluation:
+  eval_data: data/sft_eval.jsonl
+  output_dir: outputs/eval
+  semantic_model: models/paraphrase-multilingual-MiniLM-L12-v2
