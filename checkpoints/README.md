@@ -10,7 +10,7 @@ checkpoints/train_2026-05-23-20-15-30
 
 The released LoRA checkpoint used for inference can be downloaded here. Training-time LoRA adapters created by LlamaFactory are stored under `LlamaFactory/saves/`, not this directory.
 
-The DPO training config expects the previous SFT LoRA adapter at `LlamaFactory/saves/Qwen3-4B-Instruct-2507/lora/train_2026-05-19-19-00-50`.
+The DPO training config expects the previous SFT LoRA adapter at `LlamaFactory/saves/Qwen3-4B-Instruct-2507/lora`.
 
 Download source:
 
