@@ -4,7 +4,7 @@ Recommended on **Ubuntu 22.04** (Python 3.12 + PyTorch 2.8.0 + CUDA 12.8).
 
 Running the Qwen3-4B LoRA model is recommended on a GPU with at least **32 GB VRAM**.
 
-### Project structure
+## Project structure
 ```
 Capstone-Repose/
 |-- configs/              # Runtime paths and generation settings
