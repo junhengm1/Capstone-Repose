@@ -11,7 +11,7 @@ generation:
 
 checkpoint:
   source_url: https://huggingface.co/datasets/capstone-group/Capstone-dataset/tree/main/train_2026-05-23-20-15-30
-  download_command: huggingface-cli download capstone-group/Capstone-dataset --repo-type dataset --include "train_2026-05-23-20-15-30/*" --local-dir checkpoints
+  download_command: hf download capstone-group/Capstone-dataset --repo-type dataset --include "train_2026-05-23-20-15-30/*" --local-dir checkpoints
 
 evaluation:
   eval_data: data/sft_eval.jsonl

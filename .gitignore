@@ -8,7 +8,7 @@ venv/
 
 outputs/*
 !outputs/README.md
-LlamaFactory/
+/LlamaFactory/
 Qwen3-4B/
 models/*
 !models/README.md
