@@ -99,7 +99,7 @@ pip install -U huggingface_hub
 
 # Download the fine-tuned checkpoint into the local checkpoints directory
 mkdir -p checkpoints
-huggingface-cli download capstone-group/Capstone-dataset --repo-type dataset --include "train_2026-05-23-20-15-30/*" --local-dir checkpoints
+hf download capstone-group/Capstone-dataset --repo-type dataset --include "train_2026-05-23-20-15-30/*" --local-dir checkpoints
 ```
 
 Checkpoint source:
@@ -138,7 +138,7 @@ For semantic similarity metrics, the script uses a local MiniLM sentence embeddi
 ```
 # Download the MiniLM semantic evaluation model
 mkdir -p models
-huggingface-cli download sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --local-dir models/paraphrase-multilingual-MiniLM-L12-v2
+hf download sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --local-dir models/paraphrase-multilingual-MiniLM-L12-v2
 ```
 
 Run evaluation:
